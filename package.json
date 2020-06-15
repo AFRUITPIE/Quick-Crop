@@ -1,7 +1,7 @@
 {
-  "name": "quick-crop",
+  "name": "trim-vid",
   "version": "1.0.0",
-  "description": "Quickly crop videos using ffmpeg",
+  "description": "Quickly trim videos using ffmpeg",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "keywords": [
     "quick",
     "video",
-    "crop",
+    "trim",
     "ffmpeg"
   ],
   "author": "Hayden Hong",
@@ -18,6 +18,6 @@
     "argparse": "^1.0.10"
   },
   "bin": {
-    "crop": "index.js"
+    "trimvid": "index.js"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "name": "quick-crop",
+  "version": "1.0.0",
+  "description": "Quickly crop videos using ffmpeg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quick",
+    "video",
+    "crop",
+    "ffmpeg"
+  ],
+  "author": "Hayden Hong",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.10"
+  },
+  "bin": {
+    "crop": "index.js"
+  }
+}
